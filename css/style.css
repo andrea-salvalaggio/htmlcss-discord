@@ -57,6 +57,10 @@ header{
     text-align: center;
 }
 
+.link-general{
+    color: #ffff;
+}
+
 .jumbo-bg{
     background-size: cover;
     background-image: url(../img/jumbo.png);
@@ -83,6 +87,10 @@ header{
     padding: 25px 0;
 }
 
+.login{
+    color: #0000;
+}
+
 li{
     display: inline-block;
     padding: 10px;
@@ -90,7 +98,7 @@ li{
 
 a{
     text-decoration: none;
-    color: #ffff;
+    color: black;
 }
 
 img{
