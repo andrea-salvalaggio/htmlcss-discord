@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Barra di navigazione */
+#logo-discord{
+    width: 150px;
+}
+
+header{
+    background-color: #255ee9;
+}
+
+.top-bar{
+    padding: 20px 0;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-login{
+    width: 70px;
+    background-color: #ffff;
+    padding: 10px;
+}
+
+.btn-active{
+    width: 200px;
+    font-size: 20px;
+    margin: 0 5px;
+    padding: 15px 10px;
+}
+
+.btn-inactive{
+    width: 300px;
+    font-size: 20px;
+    color: #ffff;
+    background-color: #23272a;
+    margin: 0 5px;
+    padding: 15px 10px;
+}
+
+.link{
+    list-style: none;
+    text-align: center;
+}
+
+.jumbo-bg{
+    background-size: cover;
+    background-image: url(../img/jumbo.png);
+}
+
+.jumbo-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 650px;
+}
+
+.title{
+    font-size: 50px;
+    color: #ffff;
+}
+
+.description{
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffff;
+    padding: 25px 0;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+img{
+    width: 100%;
+}
+
+/* Parte caentrale */
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bgjumbo{
+    display: flex;
+    background-image: url(../img/jumbo.png) alt"Jumbo";
+    background-size: cover;
+}
+
+.section-middle{
+    background-color: #ffff;
+}
+
+.section-middle-fix{
+    background-color: #d3d3d3;
+}
+
+.box{
+    height: 300px;
+}
+
+.boxfix{
+    height: 600px;
+    background-color: #228b22;
+}
+
+.colum-small{
+    display: flex;
+    flex-grow: 1;
+    background-color: #ffc0cb;
+}
+
+.colum-big{
+    display: flex;
+    flex-grow: 2;
+    background-color: #1e90ff;
+}
+
+.colum-smallfix{
+    display: flex;
+    flex-grow: 2;
+    background-color: #20b2aa;
+}
+
+.colum-bigfix{
+    display: flex;
+    flex-grow: 1;
+    background-color: #f08080;
+}
+
+.block{
+    flex-grow: 1;
+    border: 1px dotted white;
+}
+
+/* Footer */
+footer{
+    background-color: #23272a;
+}
+
+.footer-top{
+    padding: 20px 0;
+}
+
+.bottom-bar{
+    padding-top: 20px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7fffd4;
+}
+
+.logo-footer, .button{
+    padding: 5px;
+    margin: 10px 0;
+    background-color: #ffb6c1;
+    border: none;
+}
