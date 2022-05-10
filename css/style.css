@@ -26,7 +26,7 @@ header{
 .header-content{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .btn{
@@ -36,8 +36,8 @@ header{
 
 .btn-login{
     width: 70px;
-    background-color: #ffff;
     padding: 10px;
+    background-color: #ffff;
 }
 
 .btn-active{
@@ -45,6 +45,7 @@ header{
     font-size: 20px;
     margin: 0 5px;
     padding: 15px 10px;
+    background-color: #ffff;
 }
 
 .btn-inactive{
@@ -104,14 +105,35 @@ img{
 /* Parte caentrale */
 .main-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-.bgjumbo{
+.main-content-colum{
     display: flex;
-    background-image: url(../img/jumbo.png) alt"Jumbo";
-    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bg{
+    padding: 100px 0;
+}
+
+.title-main{
+    font-size: 45px;
+}
+
+.title-main-bottom{
+    font-size: 30px;
+    padding: 50px 0;
+}
+
+.description-main{
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 20px;
 }
 
 .section-middle{
@@ -119,11 +141,12 @@ img{
 }
 
 .section-middle-fix{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
-.box{
-    height: 300px;
+.plus{
+    color: #ffff;
+    background-color: #7289da;
 }
 
 .boxfix{
@@ -133,14 +156,14 @@ img{
 
 .colum-small{
     display: flex;
-    flex-grow: 1;
-    background-color: #ffc0cb;
+    flex-direction: column;
+    width: 40%;
 }
 
 .colum-big{
     display: flex;
-    flex-grow: 2;
-    background-color: #1e90ff;
+    width: 60%;
+    background-size: cover;
 }
 
 .colum-smallfix{
